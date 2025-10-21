@@ -8,16 +8,17 @@ The objective of the study is to analyse the flight booking dataset obtained fro
 ## Repository Structure
 
 │── notebooks/  
-│   ├── data_cleaning_v1.ipynb — Initial Data cleaning file
-│   ├── xx.ipynb — 
-│   ├── xx.ipynb — 
+   ├── data_cleaning_v1.ipynb — Initial Data cleaning file
+   ├── xx.ipynb — 
+   ├── xx.ipynb — 
  
 │── data/  
-│   ├── raw_data/ — Original dataset  
-│   ├── clean_data/ — Clean dataset 
+   ├── raw_data/ — Original dataset  
+   ├── clean_data/ — Clean dataset 
 
   
 │── figures/
+
 │── SQL/
 
 
