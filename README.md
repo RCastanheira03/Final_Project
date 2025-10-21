@@ -9,8 +9,6 @@ The objective of the study is to analyse the flight booking dataset obtained fro
 
 │── notebooks/  
   ├── data_cleaning_v1.ipynb — Initial Data cleaning file
-  ├── xx.ipynb — 
-  ├── xx.ipynb — 
  
 │── data/  
   ├── raw_data/ — Original dataset  
