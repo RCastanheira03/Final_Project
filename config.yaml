@@ -1,0 +1,9 @@
+data:
+  raw_data:
+    business: "../data/raw_data/business.csv"
+    economy: "../data/raw_data/economy.csv"
+    full: "../data/raw_data/full_data.csv"
+  clean_data:
+    full_clean: "../data/clean_data/full_clean.csv"
+    business_clean: "../data/clean_data/business_clean.csv"
+    economy_clean: "../data/clean_data/economy_clean.csv"
