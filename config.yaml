@@ -7,3 +7,6 @@ data:
     full_clean: "../data/clean_data/full_clean.csv"
     business_clean: "../data/clean_data/business_clean.csv"
     economy_clean: "../data/clean_data/economy_clean.csv"
+  sql:
+    itinerary: "../data/sql/itinerary.csv"
+    ticket: "../data/sql/ticket.csv"
