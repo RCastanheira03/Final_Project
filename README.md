@@ -9,14 +9,22 @@ The objective of the study is to analyse the flight booking dataset obtained fro
 
 notebooks/  
 data_cleaning_v1.ipynb — Initial Data cleaning file
+data_cleaning_v1.ipynb — Further Data cleaning
 
 data/  
 raw_data/ — Original dataset  
-clean_data/ — Clean dataset 
+clean_data/ — Clean dataset
+sql/ - All jupyter notebooks for SQL table building 
 
 figures/
+ERD_version1
+ERD_version2
+ERD_version3
+ERD_Final - Final version of SQL ERD 
 
 SQL/
+flights_database.sql - SQL file where db is built
+
 
 config.yaml — File paths configuration  
 
@@ -28,36 +36,16 @@ README.md — Project documentation
 - **Dataset source:** [Flight Price Prediction] (https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
 - **Main features:**  
   `xx`, `xx`, `xx`,
-- **Target variable:** `xx`
-- **Data version:** `xx`
 
 All paths are configured in `config.yaml`.
 
 ---
 
-## Feature Engineering
-- Extracted car brand from the `name` column.  
-- Applied One-Hot Encoding to `fuel`, `seller_type`, and `transmission`.  
-- Applied Ordinal Encoding to `owner`.  
-- Created new feature `car_age = 2025 - year`.  
-- Scaled numerical features with **MinMaxScaler** and normalized with **PowerTransformer**.  
-- Checked **feature correlations** to avoid redundancy.  
-- Removed extreme outliers in the `selling_price` column after transformation.
+## Exploratory Data Analysis
 
 ---
 
 ## Models and Evaluation
-
-### Baseline Models
-- **K-Nearest Neighbors (KNN)**  
-- **Linear Regression**
-
-### Ensemble and Advanced Models
-- **Bagging Regressor (Decision Tree base)**  
-- **Pasting Regressor (Decision Tree base)**  
-- **Random Forest Regressor**  
-- **Gradient Boosting Regressor**  
-- **AdaBoost Regressor**
 
 Each model was evaluated using:
 - **MAE** (Mean Absolute Error)  
