@@ -9,6 +9,7 @@ A thorough study of this data helps uncover patterns valuable to passengers and 
 
 ## Repository Structure
 
+```
 SQL/
 data/
 ├── raw_data/
@@ -28,7 +29,7 @@ notebooks/
 
 config.yaml
 README.md
-
+``
 
 ---
 
