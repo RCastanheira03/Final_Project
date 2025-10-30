@@ -7,35 +7,41 @@ The objective of the study is to analyse the flight booking dataset obtained fro
 
 ## Repository Structure
 
-notebooks/  
-data_cleaning_v1.ipynb — Initial Data cleaning file
-data_cleaning_v1.ipynb — Further Data cleaning
-
-data/  
-raw_data/ — Original dataset  
-clean_data/ — Clean dataset
-sql/ - All jupyter notebooks for SQL table building 
-
-figures/
-ERD_version1
-ERD_version2
-ERD_version3
-ERD_Final - Final version of SQL ERD 
-
+// -- //
 SQL/
-flights_database.sql - SQL file where db is built
+
+// -- //
+data/ 
+
+raw_data/
+clean_data/
+sql/ 
+full_clean_tableau_ready.csv
 
 
-config.yaml — File paths configuration  
+// -- // 
+figures/
 
-README.md — Project documentation  
+ERD/
+Images/
+
+// -- //
+notebooks/
+
+EDA/
+data_clean/ 
+main/
+sql/
+
+
+// -- //
+config.yaml  
+README.md
 
 ---
 
 ## Data Inputs
-- **Dataset source:** [Flight Price Prediction] (https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
-- **Main features:**  
-  `xx`, `xx`, `xx`,
+- **Dataset source:** [Flight Price] (https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)
 
 All paths are configured in `config.yaml`.
 
@@ -45,25 +51,17 @@ All paths are configured in `config.yaml`.
 
 ---
 
-## Models and Evaluation
-
-Each model was evaluated using:
-- **MAE** (Mean Absolute Error)  
-- **MSE** (Mean Squared Error)  
-- **RMSE** (Root Mean Squared Error)  
-- **R²** (Coefficient of Determination)
-
-**Best performing model:**  
- `Random Forest Regressor` — **R² ≈ 0.93**
+Creation of Boxplots, Barcharts, Scatterplots.
+Application of different test methods such as Shapiro-Wilk, Levene's and ANOVA, among others.
 
 ---
 
 ## Useful Links  
 
-- [Kanban Board (Trello)] - 
+- [Tableau Public] - https://public.tableau.com/app/profile/ricardo.castanheira/viz/FinalProject_DAFT_RCastanheira/PricebyAirline?publish=yes
 
 
-- [Google Slides Presentation] - 
+- [Google Slides Presentation] - https://docs.google.com/presentation/d/1CjaAhdgFZ1MYjpP-q7a6_v8jCsmlufwqhTgJI8sYw3k/edit?usp=sharing
 
 
 ---
