@@ -11,6 +11,7 @@ A thorough study of this data helps uncover patterns valuable to passengers and 
 
 ```
 SQL/
+
 data/
 ├── raw_data/
 ├── clean_data/
