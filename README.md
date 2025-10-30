@@ -37,15 +37,17 @@ README.md
 ## Data Inputs
 - **Dataset source:** [Flight Price](https://www.kaggle.com/datasets/shubhambathwal/flight-price-prediction)  
 - All paths are configured in `config.yaml`.
+- All functions in main notebook being loaded from functions.py located in the same folder.
 
 ---
 
 ## Exploratory Data Analysis
-Creation of boxplots, bar charts, and scatter plots.  
+Creation of boxplots, bar charts and other graphs.
 Application of various statistical tests such as:
 - Shapiro–Wilk
 - Levene’s
 - ANOVA
+- Welsh's
 
 ---
 
