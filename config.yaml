@@ -18,3 +18,4 @@ data:
     number: "../../data/sql/number.csv"
     class: "../../data/sql/class.csv"
     stops: "../../data/sql/stops.csv"
+    testflight: "../../data/sql/stops.csv"
